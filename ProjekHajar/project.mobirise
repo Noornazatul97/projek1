@@ -1,0 +1,590 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "3.8.3",
+    "uniqCompNum": 16,
+    "versionPublish": "3.8.3",
+    "name": "NewSite-11-16_1009",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false
+      }
+    },
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/dell/Desktop/ProjekHajar"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">OVERVIEW</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">FEATURES</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">HELP</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-3",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "assets/images/komunikasi-keluarga-55e667fc9297733c10185a75-1400x791-65.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "MOKK",
+          "text": "<b>Nama Noornazatul Hajar Binti Mohd Nazim.Berasal dari Kedah tetapi menetap di Negeri Sembilan.Saya berusia 19 tahun.Saya belajar di Institut Kemahiran Belia Negara Kuala Langat.Saya mengambil kos Sijil Lanjutan Teknologi Maklumat Multimedia(Pengarangan).</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT</a>",
+          "_styles": {
+            "H3": {
+              "text-align": "center",
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000",
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-5",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "KELUARGA",
+          "text": "Keluarga ialah satu kumpulan manusia yang dihubungkan melalui pertalian darah, perkahwinan atau pengambilan anak angkat.<br><br>Di Barat, keluarga didefinisikan sebagai satu kumpulan manusia yang mempunyai hubungan darah atau pertalian sah seperti perkahwinan. Banyak ahli antropologi berpendapat istilah \"darah\" perlu difahami secara metaforik kerana banyak masyarakat bukan Barat mempunyai konsep berkeluarga yang tidak bersandarkan \"darah\".<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT</a> "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-6",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "",
+          "text": "Tidak ada yang lebih tulus menyayangi kita selain keluarga kita sendiri. Mereka mengorbankan jiwa dan raga, harta bahkan nyawa agar kita bahagia. Jangan pernah lupakan jasa-jasa mereka terutama ibu dan ayah apatah lagi sampai menyakitinya. Mereka telah melalui rasa lelah dan sakit karana merawat dan menyekolahkan kita hingga kita menjadi seperti ini. Tunjukkanlah sebuah prestasi kepada mereka atau paling tidak berikanlah mereka kebahagiaan walau hanya berjumpa lalu mengajaknya berbicara dengan penuh kehangatan. <br><br>Dan apabila telah berkeluarga, memiliki suami/istri dan anak. Cintailah mereka setulus hati, berilah mereka perhatian karena mereka sudah menjadi sebuah tanggung jawab. Tidak perlu menunggu kaya untuk menambah keharmonisan dalam berkeluarga. Berikanlah apa yang bisa diberikan kepada mereka, walau hanya sekedar berkumpul bersama dan melihat wajah-wajah ceria dari keluarga kita. Dan berikut ini adalah kata-kata mutiara tentang keluarga, semoga bermanfaat",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-7",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "assets/images/b0039-1400x969-54.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "",
+          "text": "<b>Bersamaan dengan keluarga itu lebih berharga dibanding apapun.</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
+          "_styles": {
+            "H3": {
+              "text-align": "left"
+            },
+            "B": {
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-8",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Cara membentuk keluarga bahagia",
+          "text": "<b>1. Menunjukkan contoh teladan yang baik kepada anak-anak</b><br><br>Ibubapa sendri perlu menjadi ‘role-model’ kepada anak-anak kerana mereka merupakan golongan yang paling kerap berada dengan anak-anak. Tutur kata yang sopan dan lemah lembut dengan pasangan dan juga anak-anak perlu diterapkan dalam diri.<br><br>Elakkan sikap negatif seperti pertengkaran, maki hamun serta penderaan suami terhadap isteri di depan anak-anak. Apabila anak-anak melihat keharmonian kedua-dua orang tua mereka, mereka juga akan meneladani sikap baik itu apabila berinteraksi sesama mereka. Perlakuan anak-anak sememangnya mencerminkan didikan kita sebagai ibu bapa.<br><span style=\"line-height: 1.5;\"><br></span><span style=\"line-height: 1.5;\"><b>2. Mengawasi Aktiviti Anak-Anak</b></span><br><br>Anak-anak yang sedang membesar semestinya banyak terpengaruh dengan rakan sebaya kerana darah muda membuatkan mereka memberontak untuk melakukan perkara yang baru. Ibu bapa haruslah memastikan anak-anak tidak bergaul dengan rakan sebaya yang buruk akhlak kerana sebuah keluarga yang bahagia akan sentiasa menjaga maruah ahli keluarganya.<br><br><span style=\"line-height: 1.5;\"><b>3. Mencurahkan Kasih Sayang Dan Meluangkan Masa Bersama Anak-Anak</b></span><br><br>Sudah semestinya pada zaman pemodenan ini,tugas ibu bapa mencari rezeki sememangnya mencabar. Kadangkala tanggungjawab sebagai ibu bapa kepada anak-anak diabaikan kerana sibuk mencari nafkah bagi meningkatkan taraf hidup masing-masing. Hal ini disebabkan kos sara hidup masa kini yang semakin meningkat.<br><br>Anak-anak merupakan golongan yang memerlukan kasih sayang dan perhatian yang secukupnya daripada ibu bapa mereka. Sudah pasti anak-anak akan gembira sekiranya anda sebagai ibu bapa menunjukkan kasih sayang dan meluangkan masa yang berkualiti bersama anak-anak.<br><br><b>4. Memberikan Didikan Agama Dan Moral Yang Mencukupi<br></b><br>Pelbagai kes sosial yang berlaku pada remaja zaman sekarang pastinya merisaukan anda sebagai ibu bapa apatah lagi jika anak anda sedang meningkat dewasa. Oleh itu,berikan didikan agama dan moral yang mencukupi kerana ia dapat membentuk nilai sahsiah yang tinggi di kalangan anak-anak sekaligus menyumbang ke arah pembentukan sebuah keluarga bahagia. Bagi ibu bapa pula,kesabaran yang tinggi diperlukan untuk mengelakkan keluarga daripada bercerai-berai.<br><br>",
+          "buttons": " <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">NEXT</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "36px",
+              "font-family": "'Oswald', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Oswald:400,300,700",
+              "text-align": "center",
+              "color": "#000000"
+            },
+            ".mbr-section-lead": {
+              "font-size": "11px",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700",
+              "text-align": "left",
+              "color": "#000000"
+            },
+            ".mbr-section-lead SPAN": {
+              "color": "#000000"
+            },
+            ".mbr-section-lead B": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-a",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "",
+          "text": "<b>5. Saling Menghormati Antara Satu Sama Lain<br></b><br>Wujudkan suasana dan sikap saling menghormati antara satu sama lain di kalangan anak-anak dan ahli keluarga anda. Jangan biarkan mereka meninggikan suara dan juga memanggil antara satu sama lain dengan panggilan untuk kawan. Selain itu,sikap saling membantu juga perlu diterapkan. Contohnya jika anak sulung anda pandai dalam subjek Matematik,dia haruslah membantu adik-adiknya yang lemah dalam pelajaran tersebut.<br><br><b>6. Kerapkan Berkomunikasi Antara Satu Sama Lain<br></b><br>Komunikasi merupakan salah satu cara membentuk keluarga bahagia. Ini adalah kerana komunikasi yang salah akan menimbulkan pelbagai impak yang tidak baik kepada keluarga seperti bergaduh dan bercerai.<br><br>Sekiranya anda dan pasangan menghadapi konflik,luahkan segala masalah yang dihadapi dan berbincang secara terbuka agar konflik dapat ditangani dengan cara yang paling baik. Berikan ruang kepada pasangan untuk meluahkan pandangan dan jadilah pendengar yang baik kepada pasangan anda.<br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-lead": {
+              "color": "#000000",
+              "font-size": "12px",
+              "text-align": "left"
+            },
+            ".mbr-section-lead B": {
+              "font-size": "13px"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-b",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "assets/images/sinergi1-1400x1329-72.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "",
+          "text": "<b>Lebih baik hidup sederhana tapi bermakna, daripada hidup mewah tapi mengorbankan cinta keluarga.</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "color": "#000000",
+              "font-size": "21px",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-d",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Ciri-ciri keluarga bahagia.",
+          "text": "<br>1.Menginap dalam rumah yang selamat dan sempurna.<br>2.Mempunyai pendidikan yang mencukupi.<br>3.Mengamalkan cara hidup sihat seperti makan secara sihat,bersenam,tidak merokok dan tidur yang mencukupi.<br>4.Berkomunikasi dan berinteraksi secara positif.<br>5.Menunaikan peranan dan tanggungjawab masing-masing.<br>6.Mempunyai sumber pendapatan yang mencukupi.<br>7.Mengamalkan nilai agama dan moral.<br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "60px",
+              "font-family": "'Lora', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lora:400,700",
+              "color": "#000000"
+            },
+            ".mbr-section-lead": {
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-e",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "assets/images/kartun-berdoa-ibu-anak-1400x1455-37.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "",
+          "text": "<b>Tunjukkan senyum di hadapan orang ramai, Tangisan di hadapan sahabat,Pengorbanan di hadapan keluarga dan rasa bersyukur di hadapan ALLAH &nbsp;S.W.T. &nbsp;&nbsp;</b>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>",
+          "_styles": {
+            "P": {
+              "text-align": "left",
+              "color": "#000000",
+              "font-size": "22px",
+              "font-family": "'PT Serif', serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Serif:400,700"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-f",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "KESIMPULAN",
+          "text": "<br><b>Setiap ahli dalam keluarga perlulah memainkan peranan untuk membentuk sebuah keluarga yang bahagia. Sikap tolak ansur,hormat-menghormati, dan saling memahami perlu dipupuk kerana keluarga bahagia merupakan asas pembentukan masyarakat yang penyayang dan maju.</b><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_styles": {
+            ".mbr-section-lead B": {
+              "font-size": "25px"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
